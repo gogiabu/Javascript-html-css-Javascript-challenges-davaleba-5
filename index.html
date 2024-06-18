@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-htmlcssJavascript challenges-დავალება 5</title>
+</head>
+<body>
+    <script>
+        var drinks = [
+            {name: "ქარვა", price: 9},
+            {name: "ყაზბეგი", price: 8},
+            {name: "შავი ლომი", price: 19},
+            {name: "ნატახტარი", price: 11},
+            {name: "ზედაზენი", price: 6},
+            {name: "კასტელი", price: 7},
+        ];
+
+        drinks.sort(function(first,second) {
+            return first.price - second.price
+        });
+
+        console.log(drinks);
+
+
+
+    </script>
+    
+</body>
+</html>
